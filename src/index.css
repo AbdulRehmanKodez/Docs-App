@@ -1,0 +1,5 @@
+@import "tailwindcss";
+@font-face {
+  font-family: meow;
+  src: url(../public/font2.woff2);
+}
