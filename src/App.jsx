@@ -1,10 +1,16 @@
 import React from 'react'
+import Background from './assets/components/Background'
+import Forebg from './assets/components/Forebg'
 
 const App = () => {
+  const data = [
+    {heading:"kaam",disc: "kia hal ha ap ha meow", filesize:"0.6mb"}
+  ]
   return (
-    <div className=' w-full h-screen bg-zinc-800  font-[meow]  '>
-      <h1 className='absolute text-[250px] leading-none tracking-tighter left-1/2 top-1/2 translate-x-[-50%] translate-y-[-50%] text-zinc-950'>DOCS.</h1>
-    </div>
+  <>
+    <Background/>
+    <Forebg />
+    </>
   )
 }
 
